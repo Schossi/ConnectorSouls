@@ -15,23 +15,23 @@ TagManager:
   - 
   - 
   - 
+  - Player
+  - PlayerBody
+  - PlayerDamage
+  - 
+  - 
+  - Enemy
+  - EnemyBody
+  - EnemyDamage
   - 
   - 
   - 
   - 
+  - NeutralDamage
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Decoration
+  - Trigger
   - 
   - 
   - 

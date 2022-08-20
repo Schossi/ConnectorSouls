@@ -4,5 +4,30 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SoftLeitner/AdventureSouls/Scenes/Title/SoulsTitle.unity
+    guid: 6f427ddcaa70e144da78bff9a2b98ff5
+  - enabled: 1
+    path: Assets/SoftLeitner/AdventureSouls/Scenes/Loading/SoulsLoading.unity
+    guid: ac00ed72bcd897e49bf44790b094d14a
+  - enabled: 1
+    path: Assets/SoftLeitner/AdventureSouls/Scenes/Dungeon/SoulsDungeon.unity
+    guid: d1ce3fa2c02c11746a5f2c59704b1ca0
+  - enabled: 1
+    path: Assets/SoftLeitner/AdventureSouls/Scenes/Dungeon/SoulsDungeonTemp.unity
+    guid: 42ac1b6d6461ad444b1dc329f9dd14b8
+  - enabled: 1
+    path: Assets/SoftLeitner/AdventureSouls/Scenes/Shrine/SoulsShrine.unity
+    guid: e89a3b6cce7153046a92e51d06e38b0d
+  - enabled: 1
+    path: Assets/SoftLeitner/AdventureSouls/Scenes/Shrine/SoulsShrineTemp.unity
+    guid: 47dad0dfe1fbbea48b709bc2cd4b24df
+  - enabled: 1
+    path: Assets/SoftLeitner/AdventureSouls/Scenes/Debugging/Scenes/SoulsDebuggingScenesA.unity
+    guid: 966faf3cc89d8324ab46cfef0750162a
+  - enabled: 1
+    path: Assets/SoftLeitner/AdventureSouls/Scenes/Debugging/Scenes/SoulsDebuggingScenesB.unity
+    guid: 8ff8cd1060681e448b20e703356e9290
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 1363e75f452a21948b3bc581ab274c50, type: 2}
