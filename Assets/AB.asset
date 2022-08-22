@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e088c58953265624787fbfb8f1e875c2, type: 3}
+  m_Name: AB
+  m_EditorClassIdentifier: 
+  Scenes:
+  - Scene: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+    Position: {x: -9.289241, y: -0.000004066467}
+    Connectors:
+    - Id: d4cffbcc2e9af92469601b708bb7ef5f
+      Name: Connector
+      Scene: {fileID: 102900000, guid: 68db59a10cb24e94ca3f6fd6ce0bd613, type: 3}
+      Key: 
+  - Scene: {fileID: 102900000, guid: 68db59a10cb24e94ca3f6fd6ce0bd613, type: 3}
+    Position: {x: 122.50435, y: 0.000009536743}
+    Connectors:
+    - Id: c48ac23cf22ebb649bde4a77caac92ae
+      Name: ConnectorA
+      Scene: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+      Key: 
+    - Id: 21ee0051d5e0188458ef88d4f523fef8
+      Name: ConnectorB
+      Scene: {fileID: 102900000, guid: 99753a8448bf8f74889f792ebc35b672, type: 3}
+      Key: 
+  - Scene: {fileID: 102900000, guid: 99753a8448bf8f74889f792ebc35b672, type: 3}
+    Position: {x: -8.800015, y: 68.00001}
+    Connectors:
+    - Id: d3b3651442be87943b8c86c910631078
+      Name: Connector
+      Scene: {fileID: 102900000, guid: 68db59a10cb24e94ca3f6fd6ce0bd613, type: 3}
+      Key: 
+  Connections:
+  - ConnectorIdA: d4cffbcc2e9af92469601b708bb7ef5f
+    ConnectorIdB: c48ac23cf22ebb649bde4a77caac92ae
+  - ConnectorIdA: 21ee0051d5e0188458ef88d4f523fef8
+    ConnectorIdB: d3b3651442be87943b8c86c910631078
+  AdditionalScenes:
+  - {fileID: 102900000, guid: ec1227161b9effc459bcb987eefae4a5, type: 3}

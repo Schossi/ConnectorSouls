@@ -6,28 +6,25 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/SoftLeitner/AdventureSouls/Scenes/Title/SoulsTitle.unity
-    guid: 6f427ddcaa70e144da78bff9a2b98ff5
+    path: Assets/AB/Common.unity
+    guid: ec1227161b9effc459bcb987eefae4a5
   - enabled: 1
-    path: Assets/SoftLeitner/AdventureSouls/Scenes/Loading/SoulsLoading.unity
-    guid: ac00ed72bcd897e49bf44790b094d14a
+    path: Assets/AB/A.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/SoftLeitner/AdventureSouls/Scenes/Dungeon/SoulsDungeon.unity
-    guid: d1ce3fa2c02c11746a5f2c59704b1ca0
+    path: Assets/AB/AB.unity
+    guid: 68db59a10cb24e94ca3f6fd6ce0bd613
   - enabled: 1
-    path: Assets/SoftLeitner/AdventureSouls/Scenes/Dungeon/SoulsDungeonTemp.unity
-    guid: 42ac1b6d6461ad444b1dc329f9dd14b8
+    path: Assets/AB/B.unity
+    guid: 99753a8448bf8f74889f792ebc35b672
   - enabled: 1
-    path: Assets/SoftLeitner/AdventureSouls/Scenes/Shrine/SoulsShrine.unity
-    guid: e89a3b6cce7153046a92e51d06e38b0d
+    path: Assets/AB/ATemp.unity
+    guid: 021cb400bc352b94cb722c51ea58f6b4
   - enabled: 1
-    path: Assets/SoftLeitner/AdventureSouls/Scenes/Shrine/SoulsShrineTemp.unity
-    guid: 47dad0dfe1fbbea48b709bc2cd4b24df
+    path: Assets/AB/ABTemp.unity
+    guid: d4dbe5640d132da48b49787ab560729b
   - enabled: 1
-    path: Assets/SoftLeitner/AdventureSouls/Scenes/Debugging/Scenes/SoulsDebuggingScenesA.unity
-    guid: 966faf3cc89d8324ab46cfef0750162a
-  - enabled: 1
-    path: Assets/SoftLeitner/AdventureSouls/Scenes/Debugging/Scenes/SoulsDebuggingScenesB.unity
-    guid: 8ff8cd1060681e448b20e703356e9290
+    path: Assets/AB/BTemp.unity
+    guid: 2ec9aca96a8aca942b722f6ec65a8136
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 1363e75f452a21948b3bc581ab274c50, type: 2}
