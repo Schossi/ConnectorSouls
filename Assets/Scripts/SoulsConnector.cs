@@ -1,5 +1,7 @@
 using UnityEngine.SceneManagement;
 using System.Linq;
+using UnityEngine;
+using AdventureSouls;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -66,9 +68,16 @@ public class SoulsConnector : SceneConnector
     public override void Traverse()
     {
         base.Traverse();
-
+        
         if (SceneManager.GetSceneByName(SceneName + "Temp").isLoaded)
             SceneManager.UnloadSceneAsync(SceneName + "Temp");
+    }
+
+    public void TraverseByHeight()
+    {
+        if (Mathf.Abs(transform.position.y - SoulsCommons.Instance.PlayerCharacter.Root.position.y) > 2f)
+            return;
+        Traverse();
     }
 
 #if UNITY_EDITOR

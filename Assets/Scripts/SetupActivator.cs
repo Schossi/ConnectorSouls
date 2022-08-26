@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SoulsSetupActivator : MonoBehaviour
+public class SetupActivator : MonoBehaviour
 {
     private void Awake()
     {
