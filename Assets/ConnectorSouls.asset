@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e088c58953265624787fbfb8f1e875c2, type: 3}
-  m_Name: AB
+  m_Name: ConnectorSouls
   m_EditorClassIdentifier: 
   Scenes:
   - Scene: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
-    Position: {x: -9, y: 0}
+    Position: {x: -8.800003, y: 0}
     Connectors:
     - Id: d962f61041892df49a501375707af705
       Name: Connector
@@ -42,6 +42,13 @@ MonoBehaviour:
     Position: {x: 35.599995, y: 205.20003}
     Connectors:
     - Id: 0feb217dc61b4c541b68b62dc6a40ce3
+      Name: Connector
+      Scene: {fileID: 0}
+      Key: 
+  - Scene: {fileID: 102900000, guid: 1307381651266114a807ceac73777610, type: 3}
+    Position: {x: 36, y: -145.2}
+    Connectors:
+    - Id: 3203aca2887d41d4a8721a4f4ca98e57
       Name: Connector
       Scene: {fileID: 0}
       Key: 

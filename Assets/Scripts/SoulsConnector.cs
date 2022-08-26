@@ -22,11 +22,11 @@ public class SoulsConnector : SceneConnector
             else
                 scene = connectorModel.Scene;
 
-            var path = AssetDatabase.GetAssetPath(scene);
-            if (path.Contains("Loading"))
+            var path = AssetDatabase.GetAssetPath(scene).Replace(".unity", "Temp.unity");
+            if (AssetDatabase.LoadAssetAtPath<SceneAsset>(path) == null)
                 return;
 
-            EditorSceneManager.OpenScene(path.Replace(".unity", "Temp.unity"), OpenSceneMode.Additive);
+            EditorSceneManager.OpenScene(path, OpenSceneMode.Additive);
         };
         SceneConnectorCore.ConnectorGraphModel.CollectingBuildScenes += (scenes) =>
         {
@@ -34,10 +34,11 @@ public class SoulsConnector : SceneConnector
             {
                 if (SceneConnectorCore.ConnectorGraphModel.Instance.AdditionalScenes.Any(s => AssetDatabase.GetAssetPath(s) == scene.path))
                     continue;
-                if (scene.path.Contains("Loading"))
-                    continue;
 
                 var temp = scene.path.Replace(".unity", "Temp.unity");
+                if (AssetDatabase.LoadAssetAtPath<SceneAsset>(temp) == null)
+                    continue;
+
                 if (scenes.Any(s => s.path == temp))
                     continue;
                 scenes.Add(new EditorBuildSettingsScene(temp, true));
