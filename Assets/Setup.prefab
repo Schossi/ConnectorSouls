@@ -104,10 +104,6 @@ PrefabInstance:
       propertyPath: m_Lens.m_SensorSize.x
       value: 1.9296483
       objectReference: {fileID: 0}
-    - target: {fileID: 5602093230732796196, guid: d7e54c784b6d30349aae76e5556703f2, type: 3}
-      propertyPath: Saver
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 6069441446825729877, guid: d7e54c784b6d30349aae76e5556703f2, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.13378079
