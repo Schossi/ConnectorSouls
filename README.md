@@ -12,7 +12,7 @@ The packages are not included in this repository and have to be downloaded separ
 You only need the SceneConnectorCore folder from SC for this integration demo. Download it from the [asset store](https://assetstore.unity.com/packages/templates/systems/action-adventure-kit-217284) or copy it from another project you have previously used it in if you want to avoid the errors when opening a project that is missing a lot of its files. You need both AdventureCore and AdventureSouls from AAK which you can also get on the [asset store](https://assetstore.unity.com/packages/templates/systems/action-adventure-kit-217284). Just like SC copying it over might be a bit less hassle as opening Unity before adding the assets would result in loads of errors.  
 
 Once you have downloaded the two dependencies you start to try out the integration. Open up the ConnectorSouls.asset by double clicking it.  
-![graph](https://github.com/Schossi/ConnectorSouls/blob/main/Project.PNG)  
+![graph](https://github.com/Schossi/ConnectorSouls/blob/main/Graph.PNG)  
 This scene connector graph contains all the scenes of the integration. The ConnectorSouls scene serves as a kind of entry point which can teleport you to the different demo scenes. You can double click it in the graph to open it and press play to explore the demos.
 
 ## AB
