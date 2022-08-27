@@ -5,6 +5,8 @@ This repository contains an example of how the Scene Connector asset can be used
 - [Action Adventure Kit](https://adventure.softleitner.com/)
 - [Scene Connector](https://sceneconnector.softleitner.com/)
 
+[![ConnectorSouls Video](https://img.youtube.com/vi/ukQXfv-Sr-I/0.jpg)](https://www.youtube.com/watch?v=ukQXfv-Sr-I)
+
 ## Setup
 
 The packages are not included in this repository and have to be downloaded separately! After cloning the project will be missing the SoftLeitner folder.  
