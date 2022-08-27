@@ -2,6 +2,10 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// makes sure its gameobject is only active when the specified scene is not loaded<br/>
+/// can be used to show low cost, non interactive placeholder graphics for scenes
+/// </summary>
 public class Placeholder : MonoBehaviour
 {
     [Tooltip("when this scene is loaded the placeholder gets deactivated, when it is unloaded it gets activated")]
