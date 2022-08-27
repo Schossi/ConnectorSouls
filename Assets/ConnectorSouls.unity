@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000010, guid: 3207f794c1fde3c4bbbe0217f7ac8527, type: 2}
+  m_LightingDataAsset: {fileID: 112000012, guid: 3207f794c1fde3c4bbbe0217f7ac8527, type: 2}
   m_LightingSettings: {fileID: 1112135441}
 --- !u!196 &4
 NavMeshSettings:
@@ -360,6 +360,22 @@ PrefabInstance:
       propertyPath: m_LocalRotation.x
       value: -0.0000000058477463
       objectReference: {fileID: 0}
+    - target: {fileID: 2048608064546771797, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000006256212
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048608064546771797, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000006965747
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180865692580469373, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.000000047828525
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180865692580469373, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000004204713
+      objectReference: {fileID: 0}
     - target: {fileID: 2579129788319290738, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
       value: 1.7234999
@@ -407,6 +423,10 @@ PrefabInstance:
     - target: {fileID: 6982007278570214650, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0.0000008907369
+      objectReference: {fileID: 0}
+    - target: {fileID: 6982007278570214650, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99385864
       objectReference: {fileID: 0}
     - target: {fileID: 6982007278570214650, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1145,7 +1165,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2123655474}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea672fd4a018b7e47b4f4981bb283eac, type: 3}
+  m_Script: {fileID: 11500000, guid: ed76e9e8a6df89b43a6d21f539bc4998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Positioning: 0

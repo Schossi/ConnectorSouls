@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/ConnectorSouls.unity
+    guid: 1307381651266114a807ceac73777610
+  - enabled: 1
     path: Assets/Scenes/Common.unity
     guid: ec1227161b9effc459bcb987eefae4a5
   - enabled: 1
@@ -20,9 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Loading.unity
     guid: 78a503f167ed63e4aaed79877deb501d
-  - enabled: 1
-    path: Assets/ConnectorSouls.unity
-    guid: 1307381651266114a807ceac73777610
   - enabled: 1
     path: Assets/Scenes/XY/X.unity
     guid: 91e7db7f1dd187a43ad31f6c2d574b65
@@ -50,5 +50,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/XY/XYTemp.unity
     guid: 7c689aac94188714b8b01b1ee47f0a6f
+  - enabled: 1
+    path: Assets/ConnectorSoulsTemp.unity
+    guid: f974f206f42639444aeb9eac98da101f
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 1363e75f452a21948b3bc581ab274c50, type: 2}

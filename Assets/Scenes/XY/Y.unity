@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000012, guid: 3207f794c1fde3c4bbbe0217f7ac8527, type: 2}
+  m_LightingDataAsset: {fileID: 112000014, guid: 3207f794c1fde3c4bbbe0217f7ac8527, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -1060,6 +1060,38 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.0000010332993
       objectReference: {fileID: 0}
+    - target: {fileID: 2048608064546771797, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.99385864
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048608064546771797, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.110657476
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048608064546771797, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000007648719
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048608064546771797, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.00000085161804
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180865692580469373, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.996158
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180865692580469373, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.08757446
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180865692580469373, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000007689862
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180865692580469373, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0000006760329
+      objectReference: {fileID: 0}
     - target: {fileID: 2579129788319290738, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
       value: 1.5686576
@@ -1095,6 +1127,22 @@ PrefabInstance:
     - target: {fileID: 4165044720972397790, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.0000008558755
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315806321706996573, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.99101096
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315806321706996573, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.13378079
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315806321706996573, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000007654394
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315806321706996573, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0000010332993
       objectReference: {fileID: 0}
     - target: {fileID: 6552115103642172173, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1162,11 +1210,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6982007278570214650, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000007686961
+      value: 0.000007648711
       objectReference: {fileID: 0}
     - target: {fileID: 6982007278570214650, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00000085587504
+      value: -0.0000008516187
       objectReference: {fileID: 0}
     - target: {fileID: 6982007279260827982, guid: 946a5671c3cfb6e46ad6ecf8f438c9fe, type: 3}
       propertyPath: m_Name
