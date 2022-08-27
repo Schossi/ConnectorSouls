@@ -13,7 +13,7 @@ You only need the SceneConnectorCore folder from SC for this integration demo. D
 
 Once you have downloaded the two dependencies you start to try out the integration. Open up the ConnectorSouls.asset by double clicking it.  
 ![graph](https://github.com/Schossi/ConnectorSouls/blob/main/Graph.PNG)  
-This scene connector graph contains all the scenes of the integration. The ConnectorSouls scene serves as a kind of entry point which can teleport you to the different demo scenes. You can double click it in the graph to open it and press play to explore the demos.
+This scene connector graph contains all the scenes of the integration. The ConnectorSouls scene serves as a kind of entry point which can teleport you to the different demo scenes. You can double click it in the graph to open it and press play to explore the demos. Make sure to click SetBuild in the scene connector window once to add all the scenes to the build settings before playing.
 
 ## AB
 
